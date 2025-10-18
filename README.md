@@ -3,7 +3,7 @@
 This repository contains the final submission for the **Model Training & Evaluation Summative Assignment**.  
 The project predicts whether students will be placed (employed) after graduation using **Machine Learning (ML)** and **Deep Learning (DL)** models.
 
----
+
 
 ##  Overview
 We explore how academic, personal, and employability factors influence job placement outcomes.  
@@ -11,7 +11,7 @@ Models were trained on the *Placement_Data_Full_Class.csv* dataset using Scikit-
 
 **Goal:** Compare traditional ML and DL approaches to find the most accurate and generalizable model.
 
----
+
 
 ##  Models Tested
 1️⃣ Logistic Regression  
@@ -22,7 +22,7 @@ Models were trained on the *Placement_Data_Full_Class.csv* dataset using Scikit-
 6️⃣ Sequential NN (Deeper)  
 7️⃣ Functional NN (Higher Dropout)
 
----
+
 
 ##  Performance Summary
 
@@ -36,33 +36,33 @@ Models were trained on the *Placement_Data_Full_Class.csv* dataset using Scikit-
 | Sequential NN (Deeper) | 0.88 | 0.85 | 0.88 | 0.86 |
 | **Functional NN (Higher Dropout)** | **0.90** | **0.88** | **0.90** | **0.89** |
 
----
+
 
 ##  Highlights
 - Functional Neural Network (Higher Dropout) achieved the best results with **90 % accuracy**.  
 - ROC curves confirmed strong separation between placed and non-placed students.  
 - Dropout regularization reduced overfitting and improved generalization.
 
----
+
 
 ##  Tech Stack
 `Python` • `TensorFlow / Keras` • `Scikit-learn` • `Pandas` • `NumPy` • `Matplotlib` • `Seaborn`  
 Developed and executed in **Google Colab**.
 
----
+
 
 ##  Links
-- 📘 [Open in Colab](https://colab.research.google.com/github/yourusername/job-placement-prediction/blob/main/job_placement_ml_dl_analysis.ipynb)  
-- 💻 [GitHub Repo](https://github.com/yourusername/job-placement-prediction)  
-- 🎥 [Demo Video](https://youtu.be/your-demo-link)
+-  [Open in Colab](https://colab.research.google.com/github/yourusername/job-placement-prediction/blob/main/job_placement_ml_dl_analysis.ipynb)  
+-  [GitHub Repo](https://github.com/yourusername/job-placement-prediction)  
+-  [Demo Video](https://youtu.be/your-demo-link)
 
----
+
 
 ##  Conclusion
 The **Functional Neural Network with Higher Dropout** proved most effective, balancing precision and recall for predicting employability outcomes.  
 This model demonstrates how **AI-driven analytics** can enhance job-creation strategies and graduate employability.
 
----
+
 
 **Author:** Liliane Umwanankabandi  
 **Institution:** African Leadership University | **Course:** Machine Learning – Model Training & Evaluation  
