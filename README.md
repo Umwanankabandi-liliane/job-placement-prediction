@@ -28,20 +28,25 @@ Models were trained on the *Placement_Data_Full_Class.csv* dataset using Scikit-
 
 | **Model** | **Accuracy** | **Precision** | **Recall** | **F1** |
 |:--|:--:|:--:|:--:|:--:|
-| Logistic Regression | 0.81 | 0.79 | 0.82 | 0.80 |
-| Random Forest (Default) | 0.86 | 0.85 | 0.87 | 0.86 |
-| Random Forest (Tuned) | 0.88 | 0.86 | 0.89 | 0.87 |
-| Sequential NN (Default) | 0.86 | 0.84 | 0.86 | 0.85 |
-| Functional NN (Default) | 0.89 | 0.87 | 0.89 | 0.88 |
-| Sequential NN (Deeper) | 0.88 | 0.85 | 0.88 | 0.86 |
-| **Functional NN (Higher Dropout)** | **0.90** | **0.88** | **0.90** | **0.89** |
+| Logistic Regression | 0.88 | 0.90 | 0.93 | 0.92 |
+| Random Forest (Default) | 0.79 | 0.82 | 0.90 | 0.86 |
+| Random Forest (Tuned) | 0.79 | 0.80 | 0.93 | 0.86 |
+| Sequential NN (Default) | 0.83 | 0.87 | 0.90 | 0.88 |
+| Functional NN (Default) | 0.83 | 0.87 | 0.90 | 0.88 |
+| Sequential NN (Deeper) | 0.83 | 0.87 | 0.90 | 0.88 |
+| **Functional NN (Higher Dropout)** | **0.81** | **0.87** | **0.87** | **0.87** |
 
 
 
-##  Highlights
-- Functional Neural Network (Higher Dropout) achieved the best results with **90 % accuracy**.  
-- ROC curves confirmed strong separation between placed and non-placed students.  
-- Dropout regularization reduced overfitting and improved generalization.
+Highlights
+
+Logistic Regression achieved the best performance with an accuracy of ≈ 88 %, outperforming more complex models.
+
+Random Forest and Neural Network models showed competitive but slightly lower accuracy (≈ 79–84 %), indicating that simpler models can generalize better on smaller datasets.
+
+ROC analysis confirmed that Logistic Regression had the highest discrimination power between placed and non-placed students.
+
+Regularization and dropout in deep models helped control overfitting, but dataset size limited their full potential.
 
 
 
@@ -51,18 +56,12 @@ Developed and executed in **Google Colab**.
 
 
 
-##  Links
--  [Open in Colab](https://colab.research.google.com/github/yourusername/job-placement-prediction/blob/main/job_placement_ml_dl_analysis.ipynb)  
--  [GitHub Repo](https://github.com/yourusername/job-placement-prediction)  
--  [Demo Video](https://youtu.be/your-demo-link)
 
 
-
-##  Conclusion
-The **Functional Neural Network with Higher Dropout** proved most effective, balancing precision and recall for predicting employability outcomes.  
-This model demonstrates how **AI-driven analytics** can enhance job-creation strategies and graduate employability.
-
-
+The Logistic Regression model proved most effective overall, achieving the highest accuracy (≈ 88 %) and strong balance between precision and recall.
+This result shows that even simple, interpretable machine-learning models can outperform deeper architectures when data are limited and relationships are mostly linear.
+While deep-learning models such as the Functional Neural Network with Dropout showed promising generalization, their full potential would require larger, more diverse datasets.
+Overall, the project confirms that AI-driven analytics—whether classical or deep—can provide powerful tools for improving graduate employability forecasting and supporting data-driven job-creation strategies.
 
 **Author:** Liliane Umwanankabandi  
 **Institution:** African Leadership University | **Course:** Machine Learning – Model Training & Evaluation  
